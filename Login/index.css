@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+    background-image: url(./pexels-photo-8657665.webp);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    background-image: url(./pexels-photo-8657665.webp);
+    margin: 0px 0px 10px 0px;
+}
+
+.input{
+    outline: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    outline-width: 10px;
+
+}
+
+.btn{
+    background: rgb(109, 187, 194);
+    color: rgb(11, 13, 14);
+    outline: none;
+    border: none;
+    padding: 12px 0px;
+    border-radius: 15px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}   
+
+.login{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    padding-right: 10px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    padding: 10px 0px 10PX 0PX;
+    margin: 10PX 10PX;
+    color: black;
+    text-align: center;
+}
+
+p1{
+    color: rgb(109, 187, 194);
+    margin: 0px 0px 20px 0px;
+    justify-content: center;
+    display: flex;
+    font:700;
+}
+
